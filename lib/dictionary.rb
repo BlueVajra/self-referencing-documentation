@@ -33,7 +33,7 @@ class Dictionary
       stripped_word
     end
     definition_hash[:definition] = the_definition.gsub("{","").gsub("}","")
-    pp definition_hash
+    definition_hash
   end
 
 end
